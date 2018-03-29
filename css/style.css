@@ -174,7 +174,7 @@ h6 {
   margin-top: 16px;
 }
 
-@media all and (min-width: 800px) {
+@media all and (max-width: 800px) {
   .container-0, .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
       text-align: center;
   }
@@ -185,7 +185,6 @@ h6 {
       font-size: 28px;
   }
   #intro-title {
-      font-size: 14px;
       letter-spacing: 1px;
   }
   #intro-paragraph {
@@ -197,14 +196,14 @@ h6 {
   }
 }
 
-.typewriter {
+/* .typewriter {
   overflow: hidden;
   border-right: 0.3em solid #4583FF;
   white-space: nowrap;
   margin: 0px auto;
   letter-spacing: auto;
   animation:
-    typing 9.5s steps(40, end),
+    typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -216,4 +215,4 @@ h6 {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   20% { border-color: #4583FF; }
-}
+} */
